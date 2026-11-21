@@ -1,3 +1,5 @@
+// Challenge: Write a function that takes a &str sentence and returns a HashMap<String, usize> of word frequencies (case-insensitive).
+
 use std::collections::HashMap;
 
 fn main() {

@@ -1,3 +1,6 @@
+// Challenge: Write a function celsius_to_fahrenheit(c: f64) -> f64 and a function classify(temp_f: f64) -> &'static str that returns “cold”, “mild”, or “hot” based on thresholds.
+// Print the result for 0, 20, and 35 degrees Celsius. Use string formatting.
+
 fn main() {
     println!("0°C: {}", classify(celsius_to_fahrenheit(0.)));
     println!("20°C: {}", classify(celsius_to_fahrenheit(20.)));
